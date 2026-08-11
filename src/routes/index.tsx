@@ -40,6 +40,7 @@ function Index() {
             <a href="#oferta" className="inline-block bg-stone-900 text-white px-8 py-4 rounded-full text-lg hover:bg-stone-800 transition-all hover:scale-105">
               QUERO CONHECER O MÉTODO →
             </a>
+          </div>
           <div className="flex flex-col md:flex-row justify-center gap-6 pt-8 text-stone-500">
             <span className="flex items-center gap-2">✓ Acesso online</span>
             <span className="flex items-center gap-2">✓ Passo a passo simples</span>
