@@ -126,7 +126,7 @@ export const CONFIG = {
         installments: "À vista"
       },
       cta: "QUERO O ACESSO BÁSICO",
-      checkoutUrl: "#"
+      checkoutUrl: "https://checkout.wiven.com.br/checkout/cmslxqby50dhq01odysgk3pfn?offer=B241Y0Y"
     },
     {
       id: "premium",
