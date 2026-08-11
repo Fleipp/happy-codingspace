@@ -132,26 +132,32 @@ export const CONFIG = {
     ],
     footer: "Você não precisa começar sabendo tudo. O objetivo do método é mostrar uma sequência organizada para acompanhar."
   },
-  testimonials: [
-    { 
-      name: "Dona Maria", 
-      location: "", 
-      text: "Finalmente consegui criar uma rotina que realmente cabe no meu dia. O que mais gostei foi ter tudo organizado. Antes eu via exercícios e massagens separados na internet e nunca sabia por onde começar. Com o método, passei a seguir uma sequência e transformei aqueles minutos em um momento só meu. Foi muito mais fácil manter a constância.", 
-      stars: 5 
-    },
-    { 
-      name: "Dona Ivonete", 
-      location: "", 
-      text: "O método mudou a forma como eu cuido do meu rosto. Comecei buscando uma rotina para cuidar melhor da região do rosto e pescoço, mas acabei ganhando um novo hábito de autocuidado. As orientações são simples de acompanhar e eu adorava marcar cada dia concluído. Ao longo do desafio, comecei a perceber mudanças na minha própria aparência e, principalmente, fiquei muito mais atenta ao meu autocuidado.", 
-      stars: 5 
-    },
-    { 
-      name: "Fernanda", 
-      location: "", 
-      text: "Chegar ao 21º dia me deu uma sensação incrível de conquista. Eu sempre começava rotinas de autocuidado e abandonava depois de alguns dias. Dessa vez foi diferente. Ter um cronograma e saber exatamente o que fazer me ajudou muito. Hoje continuo usando várias das técnicas que aprendi porque elas viraram parte do meu momento de cuidado diário.", 
-      stars: 5 
-    }
-  ],
+  testimonials: {
+    title: "O que elas estão dizendo",
+    subtitle: "Experiências de quem decidiu incluir o método na sua rotina de autocuidado.",
+    items: [
+      { 
+        name: "Dona Maria", 
+        highlight: "Virou meu momento de autocuidado do dia.",
+        text: "Finalmente consegui criar uma rotina que realmente cabe no meu dia. O que mais gostei foi ter tudo organizado. Antes eu via exercícios e massagens separados na internet e nunca sabia por onde começar. Com o método, passei a seguir uma sequência e transformei aqueles minutos em um momento só meu. Foi muito mais fácil manter a constância.", 
+        stars: 5 
+      },
+      { 
+        name: "Dona Ivonete", 
+        highlight: "O método mudou a forma como eu cuido do meu rosto.",
+        text: "Comecei buscando uma rotina para cuidar melhor da região do rosto e pescoço, mas acabei ganhando um novo hábito de autocuidado. As orientações são simples de acompanhar e eu adorava marcar cada dia concluído. Ao longo do desafio, comecei a perceber mudanças na minha própria aparência e, principalmente, fiquei muito mais atenta ao meu autocuidado.", 
+        stars: 5 
+      },
+      { 
+        name: "Fernanda", 
+        highlight: "Chegar ao 21º dia me deu uma sensação incrível de conquista.",
+        text: "Eu sempre começava rotinas de autocuidado e abandonava depois de alguns dias. Dessa vez foi diferente. Ter um cronograma e saber exatamente o que fazer me ajudou muito. Hoje continuo usando várias das técnicas que aprendi porque elas viraram parte do meu momento de cuidado diário.", 
+        stars: 5 
+      }
+    ],
+    footer: "Agora é a sua vez de começar a sua rotina.",
+    cta: "QUERO COMEÇAR MEUS 21 DIAS"
+  },
   offers: [
     {
       id: "basic",
