@@ -3,7 +3,10 @@ import { HeroSection } from "../components/HeroSection";
 import { ProblemSection } from "../components/ProblemSection";
 import { MethodSection } from "../components/MethodSection";
 import { OfferSection } from "../components/OfferSection";
+import { FAQSection } from "../components/FAQSection";
+import { GuaranteeSection } from "../components/GuaranteeSection";
 import { Footer } from "../components/Footer";
+import { MobileStickyCTA } from "../components/MobileStickyCTA";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -29,7 +32,10 @@ function Index() {
       <ProblemSection />
       <MethodSection />
       <OfferSection />
+      <GuaranteeSection />
+      <FAQSection />
       <Footer />
+      <MobileStickyCTA />
     </div>
   );
 }
