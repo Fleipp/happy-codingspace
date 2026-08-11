@@ -33,17 +33,35 @@ export const HeroSection = () => (
           <p className="mt-4 text-sm text-[#6F625E]">{CONFIG.hero.footer}</p>
         </div>
       </motion.div>
-      <div className="relative h-[500px] lg:h-[600px] bg-white rounded-[32px] overflow-hidden shadow-2xl border border-[#D99B92]/20">
-        <img 
+      <motion.div 
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className="relative h-[500px] lg:h-[600px] bg-white rounded-[32px] overflow-hidden shadow-2xl border border-[#D99B92]/20 group"
+      >
+        <motion.img 
+          initial={{ scale: 1.1 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
           src={heroAsset.url} 
           alt="Mulher praticando autocuidado facial" 
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#D99B92]/20 to-transparent z-10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#D99B92]/40 via-transparent to-[#D99B92]/10 z-10 mix-blend-multiply opacity-60" />
         
-        {/* Abstract decorative shape */}
-        <div className="absolute -bottom-20 -right-20 w-80 h-80 bg-white/30 rounded-full blur-3xl" />
-      </div>
+        {/* Luminous overlay for a "glow" effect */}
+        <div className="absolute inset-0 bg-white/5 z-20 pointer-events-none" />
+
+        {/* Floating decorative elements */}
+        <motion.div 
+          animate={{ 
+            y: [0, -15, 0],
+            opacity: [0.3, 0.6, 0.3] 
+          }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute -bottom-20 -right-20 w-80 h-80 bg-[#D99B92]/30 rounded-full blur-3xl z-30" 
+        />
+      </motion.div>
     </div>
   </section>
 );
