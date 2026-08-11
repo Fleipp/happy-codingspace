@@ -31,11 +31,16 @@ export const HeroSection = () => (
           <p className="mt-4 text-sm text-[#6F625E]">{CONFIG.hero.footer}</p>
         </div>
       </motion.div>
-      <div className="relative h-[500px] bg-[#F8ECE8] rounded-[24px] overflow-hidden">
-        {/* Placeholder for Image */}
-        <div className="absolute inset-0 flex items-center justify-center text-[#D99B92]">
-          [Imagem Premium de Autocuidado]
+      <div className="relative h-[500px] lg:h-[600px] bg-[#F8ECE8] rounded-[32px] overflow-hidden shadow-2xl border border-white/40">
+        <div className="absolute inset-0 bg-gradient-to-t from-[#D99B92]/20 to-transparent z-10" />
+        {/* Placeholder for Image - Using a soft glass effect for elegance */}
+        <div className="absolute inset-0 flex items-center justify-center text-[#B86662] font-serif italic text-lg p-12 text-center">
+          <div className="relative z-20">
+            [Imagem Premium: Uma mulher com pele radiante em um momento de calma e autocuidado]
+          </div>
         </div>
+        {/* Abstract decorative shape */}
+        <div className="absolute -bottom-20 -right-20 w-80 h-80 bg-white/30 rounded-full blur-3xl" />
       </div>
     </div>
   </section>

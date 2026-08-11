@@ -121,9 +121,10 @@ export const CONFIG = {
       "Materiais complementares"
     ],
     price: {
-      original: "[R$ PREÇO ORIGINAL]",
-      current: "[PREÇO]",
-      installments: "[XX]x de R$ [VALOR]"
+      original: "R$ 197",
+      current: "97",
+      installments: "12x de R$ 9,68"
+
     },
     cta: "QUERO ACESSAR O MÉTODO AGORA",
     footer: "Compra segura • Acesso digital"
