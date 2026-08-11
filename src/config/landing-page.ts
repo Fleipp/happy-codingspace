@@ -169,9 +169,9 @@ export const CONFIG = {
     footer: "Compra segura • Acesso digital"
   },
   warranty: {
-    days: "[X DIAS]",
+    days: "15 DIAS",
     title: "Experimente com tranquilidade",
-    text: "Você terá [X DIAS] para conhecer o conteúdo. Caso esteja dentro das condições da política de garantia, poderá solicitar o reembolso conforme os termos apresentados no momento da compra."
+    text: "Você terá 15 DIAS para conhecer o conteúdo. Caso esteja dentro das condições da política de garantia, poderá solicitar o reembolso conforme os termos apresentados no momento da compra."
   },
   faq: [
     { q: "Preciso de algum equipamento?", a: "[Placeholder: Informação a ser preenchida]" },
