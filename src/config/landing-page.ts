@@ -117,7 +117,12 @@ export const CONFIG = {
       text: "O método mudou a forma como eu cuido do meu rosto. Comecei buscando uma rotina para cuidar melhor da região do rosto e pescoço, mas acabei ganhando um novo hábito de autocuidado. As orientações são simples de acompanhar e eu adorava marcar cada dia concluído. Ao longo do desafio, comecei a perceber mudanças na minha própria aparência e, principalmente, fiquei muito mais atenta ao meu autocuidado.", 
       stars: 5 
     },
-    { name: "[Nome da cliente]", location: "[Cidade / Estado]", text: "[INSERIR DEPOIMENTO REAL DA CLIENTE]", stars: 5 }
+    { 
+      name: "Fernanda", 
+      location: "", 
+      text: "Chegar ao 21º dia me deu uma sensação incrível de conquista. Eu sempre começava rotinas de autocuidado e abandonava depois de alguns dias. Dessa vez foi diferente. Ter um cronograma e saber exatamente o que fazer me ajudou muito. Hoje continuo usando várias das técnicas que aprendi porque elas viraram parte do meu momento de cuidado diário.", 
+      stars: 5 
+    }
   ],
   offers: [
     {
