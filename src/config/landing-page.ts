@@ -137,7 +137,7 @@ export const CONFIG = {
       ],
       price: {
         original: "R$ 47",
-        current: "10",
+        current: "10,00",
         installments: "À vista"
       },
       cta: "QUERO O ACESSO BÁSICO",
@@ -155,7 +155,7 @@ export const CONFIG = {
       ],
       price: {
         original: "R$ 97",
-        current: "27",
+        current: "27,00",
         installments: "À vista"
       },
       cta: "QUERO O MÉTODO COMPLETO",
