@@ -54,24 +54,26 @@ export const CONFIG = {
   method: {
     badge: "O MÉTODO",
     title: "21 dias para criar uma nova rotina de autocuidado",
-    description: "O Método Adeus Papada em 21 Dias reúne exercícios faciais, técnicas de automassagem e práticas de autocuidado em um cronograma simples de acompanhar.",
+    description: "Você não precisa fazer tudo de uma vez. O método foi organizado em uma sequência de 21 dias para você acompanhar cada etapa de forma simples e no seu ritmo.",
     steps: [
       {
-        number: "01",
-        title: "Exercícios Faciais",
-        text: "Sequências de movimentos apresentadas de maneira simples para você acompanhar no seu ritmo."
+        number: "1–7",
+        title: "Comece pelo essencial",
+        text: "Conheça a rotina, aprenda os primeiros movimentos e comece a criar o hábito de reservar alguns minutos para você."
       },
       {
-        number: "02",
-        title: "Automassagem",
-        text: "Técnicas para incorporar massagens faciais e cuidados com rosto e pescoço à sua rotina."
+        number: "8–14",
+        title: "Evolua sua rotina",
+        text: "Continue a sequência com novas orientações e acompanhe as aulas de forma progressiva e organizada."
       },
       {
-        number: "03",
-        title: "Plano de 21 Dias",
-        text: "Um cronograma organizado para ajudar você a manter consistência durante todo o desafio."
+        number: "15–21",
+        title: "Complete a jornada",
+        text: "Finalize a sequência dos 21 dias e leve os cuidados aprendidos para a sua rotina de autocuidado."
       }
-    ]
+    ],
+    footer: "Poucos minutos por dia. Uma sequência para você simplesmente abrir, acompanhar e fazer.",
+    cta: "QUERO COMEÇAR MEUS 21 DIAS"
   },
   howItWorks: {
     title: "Simples de começar. Fácil de acompanhar.",

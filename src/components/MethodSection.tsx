@@ -2,39 +2,78 @@ import { CONFIG } from "../config/landing-page";
 import { motion } from "framer-motion";
 
 export const MethodSection = () => (
-  <section id="metodo" className="py-24 bg-[#F8ECE8]/30 px-6 relative overflow-hidden">
+  <section id="metodo" className="py-20 bg-[#F8ECE8]/30 px-6 relative overflow-hidden">
     <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#D99B92]/20 to-transparent" />
 
     <div className="container mx-auto max-w-5xl">
-      <div className="text-center space-y-4 mb-16">
+      <div className="text-center space-y-4 mb-12">
         <span className="inline-block px-3 py-1 bg-[#D99B92]/20 rounded-full text-xs font-semibold tracking-widest uppercase text-[#B86662]">
           {CONFIG.method.badge}
         </span>
-        <h2 className="text-4xl md:text-5xl font-serif text-[#332A28]">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-[#332A28]">
           {CONFIG.method.title}
         </h2>
-        <p className="text-lg text-[#6F625E] max-w-2xl mx-auto">
+        <p className="text-lg text-[#6F625E] max-w-2xl mx-auto leading-relaxed">
           {CONFIG.method.description}
         </p>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-8">
-        {CONFIG.method.steps.map((step, i) => (
-          <motion.div
-            key={i}
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: i * 0.1 }}
-            className="bg-white p-8 rounded-[24px] shadow-md border border-[#D99B92]/10 flex flex-col items-center text-center space-y-4 hover:shadow-lg transition-shadow"
-          >
-            <div className="w-12 h-12 bg-[#F8ECE8] rounded-full flex items-center justify-center text-[#B86662] font-serif font-bold text-xl">
-              {step.number}
-            </div>
-            <h3 className="text-xl font-serif font-bold text-[#332A28]">{step.title}</h3>
-            <p className="text-[#6F625E] text-sm leading-relaxed">{step.text}</p>
-          </motion.div>
-        ))}
+      <div className="relative">
+        {/* Desktop Connector Line */}
+        <div className="hidden md:block absolute top-[60px] left-[15%] right-[15%] h-0.5 bg-gradient-to-r from-[#D99B92]/10 via-[#D99B92]/30 to-[#D99B92]/10 -z-10" />
+        
+        <div className="grid md:grid-cols-3 gap-6 md:gap-8 relative">
+          {CONFIG.method.steps.map((step, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.1 }}
+              className="bg-white/80 backdrop-blur-sm p-8 rounded-[32px] shadow-sm border border-[#D99B92]/10 flex flex-col items-center text-center space-y-5 hover:shadow-md transition-all group"
+            >
+              <div className="relative">
+                <div className="w-16 h-16 bg-[#D99B92] rounded-full flex flex-col items-center justify-center text-white shadow-lg shadow-[#D99B92]/20 group-hover:scale-110 transition-transform">
+                  <span className="text-[10px] uppercase tracking-tighter font-bold opacity-80 leading-none">Dias</span>
+                  <span className="font-serif font-bold text-lg leading-tight">{step.number}</span>
+                </div>
+                
+                {/* Visual Arrow for desktop between steps */}
+                {i < 2 && (
+                  <div className="hidden md:flex absolute top-1/2 -right-6 lg:-right-8 transform -translate-y-1/2 text-[#D99B92]/40 z-10">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                  </div>
+                )}
+              </div>
+
+              <div className="space-y-3">
+                <h3 className="text-2xl font-serif font-bold text-[#332A28] leading-tight">
+                  {step.title}
+                </h3>
+                <p className="text-[#6F625E] text-base leading-relaxed">
+                  {step.text}
+                </p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+
+      <div className="mt-16 text-center space-y-8">
+        <p className="text-[#6F625E] italic max-w-xl mx-auto">
+          "{(CONFIG.method as any).footer}"
+        </p>
+        
+        <motion.a
+          href="#ofertas"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="inline-block px-10 py-4 bg-[#D99B92] text-white rounded-full font-bold text-lg shadow-xl shadow-[#D99B92]/30 hover:bg-[#B86662] transition-colors uppercase tracking-wider"
+        >
+          {(CONFIG.method as any).cta}
+        </motion.a>
       </div>
     </div>
   </section>
