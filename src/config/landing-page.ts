@@ -3,7 +3,7 @@
  * Centralized content for the "Adeus Papada" landing page.
  */
 
-export const CHECKOUT_URL = "#"; // Replace with real URL later
+export const CHECKOUT_URL = "https://checkout.wiven.com.br/checkout/cmslxqby50dhq01odysgk3pfn?offer=B241Y0Y";
 
 export const CONFIG = {
   productName: "Método Adeus Papada em 21 Dias",
@@ -126,7 +126,7 @@ export const CONFIG = {
         installments: "À vista"
       },
       cta: "QUERO O ACESSO BÁSICO",
-      checkoutUrl: "#"
+      checkoutUrl: "https://checkout.wiven.com.br/checkout/cmslxqby50dhq01odysgk3pfn?offer=B241Y0Y"
     },
     {
       id: "premium",
