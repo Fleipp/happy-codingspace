@@ -114,11 +114,28 @@ export const CONFIG = {
   },
   routine: {
     title: "Alguns minutos dedicados a você",
-    cards: [
-      { title: "Preparação", text: "Escolha um momento tranquilo do seu dia." },
-      { title: "Prática", text: "Acompanhe os movimentos e técnicas apresentados." },
-      { title: "Consistência", text: "Siga seu cronograma durante os 21 dias." }
-    ]
+    subtitle: "Um momento simples de autocuidado que você pode encaixar na sua rotina.",
+    steps: [
+      { 
+        number: "01",
+        title: "Prepare seu momento", 
+        text: "Encontre um momento tranquilo do seu dia e prepare-se para acompanhar a rotina.",
+        image: "/ritual-01.png" // Placeholder based on previous context if images were defined
+      },
+      { 
+        number: "02",
+        title: "Acompanhe a orientação", 
+        text: "Abra o conteúdo do dia e acompanhe as orientações de forma simples e guiada.",
+        image: "/ritual-02.png"
+      },
+      { 
+        number: "03",
+        title: "Complete sua rotina", 
+        text: "Siga a sequência proposta e transforme esses minutos em um momento dedicado a você.",
+        image: "/ritual-03.png"
+      }
+    ],
+    footer: "Você não precisa organizar tudo sozinha. O próximo passo da sua jornada já estará esperando por você."
   },
   forWho: {
     title: "Este método foi criado para quem…",
