@@ -233,13 +233,42 @@ export const CONFIG = {
     ]
   },
   faq: [
-    { q: "Preciso de algum equipamento para começar?", a: "Não são necessários equipamentos complexos. Você usará apenas as mãos e, em algumas técnicas, itens simples que já tem em casa, como um hidratante ou óleo facial de sua preferência." },
-    { q: "Quanto tempo preciso dedicar por dia?", a: "O método foi desenhado para ser prático: você precisará de apenas 10 a 15 minutos por dia para realizar as sequências propostas." },
-    { q: "Posso fazer em casa?", a: "Sim, o método foi criado para ser praticado totalmente em casa, no seu ritmo e no horário que for melhor para você." },
-    { q: "Como vou receber o acesso?", a: "Imediatamente após a confirmação do pagamento, você receberá um e-mail com todos os dados para acessar nossa plataforma exclusiva." },
-    { q: "Por quanto tempo terei acesso ao conteúdo?", a: "No plano 'Método Completo', o seu acesso é vitalício. No plano 'Desafio 21 Dias', você tem acesso por 1 ano para revisar as técnicas sempre que desejar." },
-    { q: "O método serve para qualquer idade?", a: "Sim, as técnicas de autocuidado e exercícios faciais podem ser iniciadas em qualquer fase da vida como uma forma de cuidado preventivo ou de manutenção." },
-    { q: "Como funciona a garantia de 15 dias?", a: "É simples: você tem 15 dias para testar o método. Se por qualquer motivo sentir que não é para você, basta solicitar o reembolso integral dentro deste prazo." }
+    { 
+      q: "Como funciona o Método Adeus Papada?", 
+      a: "O método é uma jornada guiada e organizada em 21 dias. Você terá acesso a uma sequência clara de orientações e aulas em vídeo para acompanhar dia após dia, facilitando a criação de uma nova rotina de autocuidado facial." 
+    },
+    { 
+      q: "Quanto tempo preciso dedicar por dia?", 
+      a: "O método foi desenhado para ser prático: você precisará de apenas 10 a 15 minutos por dia para realizar as sequências propostas e acompanhar as orientações." 
+    },
+    { 
+      q: "Preciso de algum equipamento?", 
+      a: "Não são necessários equipamentos complexos. Você usará apenas as mãos e, em algumas técnicas, itens simples que já tem em casa, como um hidratante ou óleo facial de sua preferência." 
+    },
+    { 
+      q: "Como vou receber o acesso?", 
+      a: "Imediatamente após a confirmação do pagamento, você receberá um e-mail com todos os dados para acessar nossa plataforma exclusiva e começar sua jornada." 
+    },
+    { 
+      q: "Posso assistir pelo celular?", 
+      a: "Sim, a plataforma é totalmente compatível com celular, tablet e computador, permitindo que você acompanhe as aulas de onde for mais confortável para você." 
+    },
+    { 
+      q: "Por quanto tempo terei acesso?", 
+      a: "No plano 'Acesso Completo', seu acesso é vitalício. No plano 'Acesso Essencial', você tem acesso garantido por 1 ano para revisar as técnicas sempre que desejar." 
+    },
+    { 
+      q: "Qual é a diferença entre a opção de R$10 e a de R$27?", 
+      a: "A principal diferença é o tempo de acesso e os bônus: a opção de R$27 oferece acesso vitalício, suporte para dúvidas e materiais complementares, enquanto a de R$10 oferece 1 ano de acesso ao conteúdo base do método." 
+    },
+    { 
+      q: "Existe garantia?", 
+      a: "Sim, você tem 15 dias de garantia incondicional. Se por qualquer motivo sentir que o método não é para você, basta solicitar o reembolso integral dentro deste prazo." 
+    },
+    { 
+      q: "Vou ter resultados em 21 dias?", 
+      a: "Os 21 dias representam a organização e a duração da jornada guiada para criar o hábito. Como cada corpo reage de forma única, os resultados podem variar de pessoa para pessoa, dependendo da consistência e das características individuais." 
+    }
   ],
   footer: {
     disclaimer: "Este produto apresenta conteúdo educativo relacionado a exercícios faciais e práticas de autocuidado. Não substitui avaliação, diagnóstico ou orientação de profissionais de saúde. Experiências e resultados individuais podem variar.",
