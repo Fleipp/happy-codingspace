@@ -144,7 +144,7 @@ export const CONFIG = {
         installments: "À vista"
       },
       cta: "QUERO O MÉTODO COMPLETO",
-      checkoutUrl: "https://checkout.wiven.com.br/checkout/cmslxqby50dhq01odysgk3pfn?offer=B241Y0Y",
+      checkoutUrl: "#",
       featured: true
     }
   ],
