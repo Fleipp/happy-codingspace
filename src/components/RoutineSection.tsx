@@ -1,6 +1,7 @@
 import { CONFIG } from "../config/landing-page";
 import { motion } from "framer-motion";
 import ritual1Asset from "@/assets/ritual-1.png.asset.json";
+import ritual2Asset from "@/assets/ritual-2.png.asset.json";
 
 export const RoutineSection = () => (
   <section className="py-24 bg-white px-6">
@@ -23,6 +24,12 @@ export const RoutineSection = () => (
               {i === 0 ? (
                 <img 
                   src={ritual1Asset.url} 
+                  alt={card.title}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+              ) : i === 1 ? (
+                <img 
+                  src={ritual2Asset.url} 
                   alt={card.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
