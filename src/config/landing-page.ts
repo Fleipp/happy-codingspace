@@ -30,14 +30,25 @@ export const CONFIG = {
   },
   problem: {
     title: "Você já tentou esconder essa região nas fotos?",
-    intro: "Talvez você já tenha procurado o melhor ângulo para uma foto, levantado um pouco o rosto diante do espelho ou simplesmente desejado dedicar mais atenção ao contorno facial.",
+    intro: "Se o contorno abaixo do queixo é uma região que você gostaria de cuidar mais, saiba que pequenas práticas de autocuidado podem ser incorporadas à sua rotina de forma simples.",
     cards: [
-      { emoji: "📸", text: "Evita determinados ângulos nas fotos" },
-      { emoji: "👩", text: "Gostaria de valorizar mais o contorno facial" },
-      { emoji: "⏰", text: "Quer uma rotina simples que caiba no dia a dia" },
-      { emoji: "🏠", text: "Prefere começar com práticas de autocuidado em casa" }
+      { 
+        emoji: "📸", 
+        title: "Evita alguns ângulos nas fotos",
+        text: "Você sente que certos ângulos destacam mais essa região." 
+      },
+      { 
+        emoji: "✨", 
+        title: "Busca cuidar mais do contorno",
+        text: "Você gostaria de incluir essa área na sua rotina de autocuidado." 
+      },
+      { 
+        emoji: "🌿", 
+        title: "Não quer uma rotina complicada",
+        text: "Você procura algo simples, guiado e que caiba no seu dia." 
+      }
     ],
-    footer: "Foi pensando em transformar essa intenção em uma rotina organizada que nasceu o Método Adeus Papada em 21 Dias.",
+    footer: "Foi pensando nisso que nasceu o Método Adeus Papada.",
     cta: "CONHECER O MÉTODO"
   },
   method: {

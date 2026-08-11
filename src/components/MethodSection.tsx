@@ -2,7 +2,7 @@ import { CONFIG } from "../config/landing-page";
 import { motion } from "framer-motion";
 
 export const MethodSection = () => (
-  <section className="py-24 bg-[#F8ECE8]/30 px-6 relative overflow-hidden">
+  <section id="metodo" className="py-24 bg-[#F8ECE8]/30 px-6 relative overflow-hidden">
     <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#D99B92]/20 to-transparent" />
 
     <div className="container mx-auto max-w-5xl">
