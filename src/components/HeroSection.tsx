@@ -10,7 +10,7 @@ export const HeroSection = () => (
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="space-y-6 flex flex-col items-center lg:items-start text-center lg:text-left order-1"
+        className="space-y-6 flex flex-col items-center lg:items-start text-center lg:text-left order-1 lg:order-1"
       >
         <span className="inline-block px-3 py-1 bg-[#F8ECE8] rounded-full text-xs font-semibold tracking-widest uppercase text-[#B86662]">
           {CONFIG.hero.badge}
@@ -39,11 +39,12 @@ export const HeroSection = () => (
           <p className="mt-4 text-sm md:text-base font-semibold text-[#6F625E]">{CONFIG.hero.footer}</p>
         </div>
       </motion.div>
+
       <motion.div 
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="relative h-[400px] lg:h-[750px] w-full bg-white rounded-[32px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-[#D99B92]/20 group order-2 lg:order-2"
+        className="relative h-[400px] lg:h-[750px] w-full bg-white rounded-[32px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-[#D99B92]/20 group order-3 lg:order-2"
       >
         <motion.img 
           initial={{ scale: 1.1 }}
