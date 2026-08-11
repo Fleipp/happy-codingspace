@@ -6,7 +6,7 @@
 export const CHECKOUT_URL = "#"; // Replace with real URL later
 
 export const CONFIG = {
-  productName: "Método Adeus Papada em 21 Dias",
+  productName: "MÉTODO ADEUS PAPADA EM 21 DIAS",
   colors: {
     primary: "#FFF9F6",
     secondary: "#F8ECE8",
@@ -18,7 +18,7 @@ export const CONFIG = {
   },
   hero: {
     badge: "ROTINA GUIADA • 21 DIAS",
-    headline: "Adeus Papada em 21 Dias",
+    headline: "ADEUS PAPADA EM 21 DIAS",
     subheadline: "Uma rotina simples e guiada para transformar alguns minutos do seu dia em um momento dedicado ao cuidado com o rosto, pescoço e contorno facial.",
     benefits: [
       "Pratique em casa",
@@ -37,13 +37,13 @@ export const CONFIG = {
       { emoji: "⏰", text: "Quer uma rotina simples que caiba no dia a dia" },
       { emoji: "🏠", text: "Prefere começar com práticas de autocuidado em casa" }
     ],
-    footer: "Foi pensando em transformar essa intenção em uma rotina organizada que nasceu o Método Adeus Papada em 21 Dias.",
+    footer: "Foi pensando em transformar essa intenção em uma rotina organizada que nasceu o MÉTODO ADEUS PAPADA EM 21 DIAS.",
     cta: "CONHECER O MÉTODO"
   },
   method: {
     badge: "O MÉTODO",
     title: "21 dias para criar uma nova rotina de autocuidado",
-    description: "O Método Adeus Papada em 21 Dias reúne exercícios faciais, técnicas de automassagem e práticas de autocuidado em um cronograma simples de acompanhar.",
+    description: "O MÉTODO ADEUS PAPADA EM 21 DIAS reúne exercícios faciais, técnicas de automassagem e práticas de autocuidado em um cronograma simples de acompanhar.",
     steps: [
       {
         number: "01",
@@ -146,6 +146,6 @@ export const CONFIG = {
   ],
   footer: {
     disclaimer: "Este produto apresenta conteúdo educativo relacionado a exercícios faciais e práticas de autocuidado. Não substitui avaliação, diagnóstico ou orientação de profissionais de saúde. Experiências e resultados individuais podem variar.",
-    copyright: "© 2026 Método Adeus Papada em 21 Dias. Todos os direitos reservados."
+    copyright: "© 2026 MÉTODO ADEUS PAPADA EM 21 DIAS. Todos os direitos reservados."
   }
 };
