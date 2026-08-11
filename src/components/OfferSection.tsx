@@ -3,7 +3,7 @@ import { CTAButton } from "./ui/CTAButton";
 import { motion } from "framer-motion";
 
 export const OfferSection = () => (
-  <section id="oferta" className="py-24 bg-white px-6">
+  <section id="ofertas" className="py-24 bg-white px-6">
     <div className="container mx-auto max-w-6xl text-center space-y-12">
       <div className="space-y-4">
         <h2 className="text-4xl md:text-5xl font-serif text-[#332A28]">
