@@ -2,11 +2,15 @@ import { createFileRoute } from "@tanstack/react-router";
 import { HeroSection } from "../components/HeroSection";
 import { ProblemSection } from "../components/ProblemSection";
 import { MethodSection } from "../components/MethodSection";
+import { HowItWorks } from "../components/HowItWorks";
+import { WhatsIncluded } from "../components/WhatsIncluded";
+import { RoutineSection } from "../components/RoutineSection";
 import { ForWhoSection } from "../components/ForWhoSection";
 import { TestimonialsSection } from "../components/TestimonialsSection";
 import { OfferSection } from "../components/OfferSection";
-import { FAQSection } from "../components/FAQSection";
 import { GuaranteeSection } from "../components/GuaranteeSection";
+import { FAQSection } from "../components/FAQSection";
+import { FinalCTA } from "../components/FinalCTA";
 import { Footer } from "../components/Footer";
 import { MobileStickyCTA } from "../components/MobileStickyCTA";
 
@@ -33,11 +37,15 @@ function Index() {
       <HeroSection />
       <ProblemSection />
       <MethodSection />
+      <HowItWorks />
+      <WhatsIncluded />
+      <RoutineSection />
       <ForWhoSection />
       <TestimonialsSection />
       <OfferSection />
       <GuaranteeSection />
       <FAQSection />
+      <FinalCTA />
       <Footer />
       <MobileStickyCTA />
     </div>
