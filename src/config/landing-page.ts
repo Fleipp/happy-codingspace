@@ -109,24 +109,48 @@ export const CONFIG = {
     { name: "[Nome da cliente]", location: "[Cidade / Estado]", text: "[INSERIR DEPOIMENTO REAL DA CLIENTE]", stars: 5 },
     { name: "[Nome da cliente]", location: "[Cidade / Estado]", text: "[INSERIR DEPOIMENTO REAL DA CLIENTE]", stars: 5 }
   ],
-  offer: {
-    title: "Comece hoje o seu desafio de 21 dias",
-    subtitle: "Tenha acesso ao passo a passo e acompanhe a rotina no seu próprio ritmo.",
-    items: [
-      "Programa de 21 dias",
-      "Guia passo a passo",
-      "Exercícios faciais",
-      "Técnicas de automassagem",
-      "Calendário de acompanhamento",
-      "Materiais complementares"
-    ],
-    price: {
-      original: "R$ 197",
-      current: "97",
-      installments: "12x de R$ 9,68"
-
+  offers: [
+    {
+      id: "basic",
+      title: "Desafio 21 Dias",
+      subtitle: "Acesso completo ao cronograma e exercícios.",
+      items: [
+        "Programa de 21 dias",
+        "Guia passo a passo",
+        "Exercícios faciais",
+        "Técnicas de automassagem"
+      ],
+      price: {
+        original: "R$ 47",
+        current: "10",
+        installments: "À vista"
+      },
+      cta: "QUERO O ACESSO BÁSICO",
+      checkoutUrl: "#"
     },
-    cta: "QUERO ACESSAR O MÉTODO AGORA",
+    {
+      id: "premium",
+      title: "Método Completo + Bônus",
+      subtitle: "A experiência completa com materiais extras.",
+      items: [
+        "Tudo do plano básico",
+        "Calendário de acompanhamento",
+        "Materiais complementares",
+        "Acesso vitalício"
+      ],
+      price: {
+        original: "R$ 97",
+        current: "27",
+        installments: "À vista"
+      },
+      cta: "QUERO O MÉTODO COMPLETO",
+      checkoutUrl: "#",
+      featured: true
+    }
+  ],
+  offerSection: {
+    title: "Escolha a melhor oferta para você",
+    subtitle: "Comece hoje o seu desafio de 21 dias no seu próprio ritmo.",
     footer: "Compra segura • Acesso digital"
   },
   warranty: {
