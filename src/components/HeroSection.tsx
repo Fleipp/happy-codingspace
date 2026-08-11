@@ -15,7 +15,7 @@ export const HeroSection = () => (
         <span className="inline-block px-3 py-1 bg-[#F8ECE8] rounded-full text-xs font-semibold tracking-widest uppercase text-[#B86662]">
           {CONFIG.hero.badge}
         </span>
-        <h1 className="text-5xl md:text-7xl font-serif text-[#332A28] leading-tight">
+        <h1 className="text-5xl md:text-7xl font-serif font-black text-[#332A28] leading-tight">
           {CONFIG.hero.headline}
         </h1>
         <p className="text-xl text-[#6F625E] max-w-lg">
