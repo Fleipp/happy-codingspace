@@ -105,7 +105,12 @@ export const CONFIG = {
     footer: "Você não precisa começar sabendo tudo. O objetivo do método é mostrar uma sequência organizada para acompanhar."
   },
   testimonials: [
-    { name: "[Nome da cliente]", location: "[Cidade / Estado]", text: "[INSERIR DEPOIMENTO REAL DA CLIENTE]", stars: 5 },
+    { 
+      name: "Dona Maria", 
+      location: "", 
+      text: "Finalmente consegui criar uma rotina que realmente cabe no meu dia. O que mais gostei foi ter tudo organizado. Antes eu via exercícios e massagens separados na internet e nunca sabia por onde começar. Com o método, passei a seguir uma sequência e transformei aqueles minutos em um momento só meu. Foi muito mais fácil manter a constância.", 
+      stars: 5 
+    },
     { name: "[Nome da cliente]", location: "[Cidade / Estado]", text: "[INSERIR DEPOIMENTO REAL DA CLIENTE]", stars: 5 },
     { name: "[Nome da cliente]", location: "[Cidade / Estado]", text: "[INSERIR DEPOIMENTO REAL DA CLIENTE]", stars: 5 }
   ],
