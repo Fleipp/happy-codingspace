@@ -159,7 +159,7 @@ export const CONFIG = {
         installments: "À vista"
       },
       cta: "QUERO O MÉTODO COMPLETO",
-      checkoutUrl: "#",
+      checkoutUrl: "https://checkout.wiven.com.br/checkout/cmslxqby50dhq01odysgk3pfn?offer=B241Y0Y",
       featured: true
     }
   ],
@@ -174,14 +174,13 @@ export const CONFIG = {
     text: "Você terá 15 DIAS para conhecer o conteúdo. Caso esteja dentro das condições da política de garantia, poderá solicitar o reembolso conforme os termos apresentados no momento da compra."
   },
   faq: [
-    { q: "Preciso de algum equipamento?", a: "[Placeholder: Informação a ser preenchida]" },
-    { q: "Quanto tempo preciso dedicar por dia?", a: "[Placeholder: Informação a ser preenchida]" },
-    { q: "Posso fazer em casa?", a: "Sim, o método foi criado para ser praticado totalmente em casa." },
-    { q: "Como vou receber o método?", a: "Após a confirmação do pagamento, você receberá os dados de acesso no seu e-mail." },
-    { q: "Por quanto tempo terei acesso?", a: "[Placeholder: Informação a ser preenchida]" },
-    { q: "Quando posso começar?", a: "Imediatamente após receber seu acesso." },
-    { q: "O método substitui procedimentos estéticos?", a: "Não. O conteúdo possui caráter educativo e de autocuidado e não substitui avaliação ou orientação de profissionais habilitados." },
-    { q: "Como funciona a garantia?", a: "Você terá um prazo de garantia para conhecer o conteúdo conforme descrito na oferta." }
+    { q: "Preciso de algum equipamento para começar?", a: "Não são necessários equipamentos complexos. Você usará apenas as mãos e, em algumas técnicas, itens simples que já tem em casa, como um hidratante ou óleo facial de sua preferência." },
+    { q: "Quanto tempo preciso dedicar por dia?", a: "O método foi desenhado para ser prático: você precisará de apenas 10 a 15 minutos por dia para realizar as sequências propostas." },
+    { q: "Posso fazer em casa?", a: "Sim, o método foi criado para ser praticado totalmente em casa, no seu ritmo e no horário que for melhor para você." },
+    { q: "Como vou receber o acesso?", a: "Imediatamente após a confirmação do pagamento, você receberá um e-mail com todos os dados para acessar nossa plataforma exclusiva." },
+    { q: "Por quanto tempo terei acesso ao conteúdo?", a: "No plano 'Método Completo', o seu acesso é vitalício. No plano 'Desafio 21 Dias', você tem acesso por 1 ano para revisar as técnicas sempre que desejar." },
+    { q: "O método serve para qualquer idade?", a: "Sim, as técnicas de autocuidado e exercícios faciais podem ser iniciadas em qualquer fase da vida como uma forma de cuidado preventivo ou de manutenção." },
+    { q: "Como funciona a garantia de 15 dias?", a: "É simples: você tem 15 dias para testar o método. Se por qualquer motivo sentir que não é para você, basta solicitar o reembolso integral dentro deste prazo." }
   ],
   footer: {
     disclaimer: "Este produto apresenta conteúdo educativo relacionado a exercícios faciais e práticas de autocuidado. Não substitui avaliação, diagnóstico ou orientação de profissionais de saúde. Experiências e resultados individuais podem variar.",
