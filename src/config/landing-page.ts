@@ -19,14 +19,14 @@ export const CONFIG = {
   hero: {
     badge: "ROTINA GUIADA • 21 DIAS",
     headline: "Método: Adeus Papada em 21 Dias",
-    subheadline: "Uma rotina simples e guiada para transformar alguns minutos do seu dia em um momento dedicado ao cuidado com o rosto, pescoço e contorno facial.",
+    subheadline: "Uma rotina guiada de poucos minutos por dia para cuidar da região da papada em casa, com uma sequência simples para acompanhar durante 21 dias.",
     benefits: [
       "Pratique em casa",
       "Rotina simples de acompanhar",
       "Apenas alguns minutos por dia"
     ],
     cta: "QUERO COMEÇAR MEUS 21 DIAS",
-    footer: "100% digital • Acesso pelo celular"
+    footer: "Acesso imediato • Faça no seu ritmo"
   },
   problem: {
     title: "Você já tentou esconder essa região nas fotos?",
