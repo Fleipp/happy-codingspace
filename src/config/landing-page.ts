@@ -212,8 +212,25 @@ export const CONFIG = {
   },
   warranty: {
     days: "15 DIAS",
-    title: "Experimente com tranquilidade",
-    text: "Você terá 15 DIAS para conhecer o conteúdo. Caso esteja dentro das condições da política de garantia, poderá solicitar o reembolso conforme os termos apresentados no momento da compra."
+    title: "Comece com tranquilidade",
+    text: "Você pode conhecer o método com mais tranquilidade. Experimente o conteúdo por 15 dias e veja como ele se encaixa na sua rotina.",
+    trustElements: [
+      {
+        icon: "🔒",
+        title: "Pagamento seguro",
+        description: "Seus dados de pagamento são processados de forma segura."
+      },
+      {
+        icon: "⚡",
+        title: "Acesso após a confirmação",
+        description: "Após a confirmação do pagamento, você recebe as orientações para acessar o conteúdo."
+      },
+      {
+        icon: "📱",
+        title: "Acompanhe online",
+        description: "Acesse o conteúdo pelo celular, tablet ou computador."
+      }
+    ]
   },
   faq: [
     { q: "Preciso de algum equipamento para começar?", a: "Não são necessários equipamentos complexos. Você usará apenas as mãos e, em algumas técnicas, itens simples que já tem em casa, como um hidratante ou óleo facial de sua preferência." },
