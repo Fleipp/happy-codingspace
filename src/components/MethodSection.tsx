@@ -61,6 +61,60 @@ export const MethodSection = () => (
         </div>
       </div>
 
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        className="mt-20 p-8 md:p-12 bg-[#F8ECE8] rounded-[40px] border border-[#D99B92]/10 relative overflow-hidden"
+      >
+        <div className="absolute top-0 right-0 w-64 h-64 bg-[#D99B92]/5 rounded-full blur-3xl -mr-32 -mt-32" />
+        
+        <div className="relative z-10 space-y-8">
+          <div className="text-center space-y-4 max-w-2xl mx-auto">
+            <h3 className="text-2xl md:text-3xl font-serif text-[#332A28]">
+              Por que uma sequência de 21 dias?
+            </h3>
+            <p className="text-[#6F625E] leading-relaxed">
+              Porque quando existe um passo a passo, fica mais fácil saber o que fazer a cada dia. Em vez de receber vários conteúdos soltos, você acompanha uma sequência organizada e incorpora esse momento à sua rotina gradualmente.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 md:gap-12 py-8 border-y border-[#D99B92]/10">
+            <div className="space-y-2">
+              <h4 className="font-bold text-[#D99B92] flex items-center gap-2 uppercase tracking-wide text-sm">
+                <span>✓</span> Menos dúvida sobre o que fazer
+              </h4>
+              <p className="text-[#6F625E] text-sm leading-relaxed">
+                Você abre o conteúdo e sabe qual é o próximo passo.
+              </p>
+            </div>
+            <div className="space-y-2">
+              <h4 className="font-bold text-[#D99B92] flex items-center gap-2 uppercase tracking-wide text-sm">
+                <span>✓</span> Uma rotina mais fácil de acompanhar
+              </h4>
+              <p className="text-[#6F625E] text-sm leading-relaxed">
+                O conteúdo é dividido em etapas para não parecer complicado ou cansativo.
+              </p>
+            </div>
+            <div className="space-y-2">
+              <h4 className="font-bold text-[#D99B92] flex items-center gap-2 uppercase tracking-wide text-sm">
+                <span>✓</span> Mais constância
+              </h4>
+              <p className="text-[#6F625E] text-sm leading-relaxed">
+                A proposta é ajudar você a reservar alguns minutos para esse cuidado ao longo da jornada.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <p className="text-lg md:text-xl font-serif italic text-[#B86662]">
+              “Não é sobre fazer tudo de uma vez. É sobre ter uma sequência para acompanhar dia após dia.”
+            </p>
+          </div>
+        </div>
+      </motion.div>
+
       <div className="mt-16 text-center space-y-8">
         <p className="text-[#6F625E] italic max-w-xl mx-auto">
           "{(CONFIG.method as any).footer}"
