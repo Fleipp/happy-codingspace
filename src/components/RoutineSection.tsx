@@ -1,5 +1,6 @@
 import { CONFIG } from "../config/landing-page";
 import { motion } from "framer-motion";
+import ritual1Asset from "@/assets/ritual-1.png.asset.json";
 
 export const RoutineSection = () => (
   <section className="py-24 bg-white px-6">
@@ -18,8 +19,16 @@ export const RoutineSection = () => (
             transition={{ delay: i * 0.1 }}
             className="space-y-6"
           >
-            <div className="aspect-[3/4] bg-[#F8ECE8] rounded-[24px] overflow-hidden flex items-center justify-center text-[#D99B92] border border-[#D99B92]/10">
-              [Imagem Ritual {i + 1}]
+            <div className="aspect-[3/4] bg-[#F8ECE8] rounded-[24px] overflow-hidden flex items-center justify-center text-[#D99B92] border border-[#D99B92]/10 relative group">
+              {i === 0 ? (
+                <img 
+                  src={ritual1Asset.url} 
+                  alt={card.title}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+              ) : (
+                <span>[Imagem Ritual {i + 1}]</span>
+              )}
             </div>
             <div className="text-center space-y-2">
               <h3 className="text-xl font-serif font-bold text-[#332A28]">{card.title}</h3>
