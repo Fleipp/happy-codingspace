@@ -31,7 +31,7 @@ export const HeroSection = () => (
           <p className="mt-4 text-sm text-[#6F625E]">{CONFIG.hero.footer}</p>
         </div>
       </motion.div>
-      <div className="relative h-[500px] lg:h-[600px] bg-[#F8ECE8] rounded-[32px] overflow-hidden shadow-2xl border border-white/40">
+      <div className="relative h-[500px] lg:h-[600px] bg-white rounded-[32px] overflow-hidden shadow-2xl border border-[#D99B92]/20">
         <div className="absolute inset-0 bg-gradient-to-t from-[#D99B92]/20 to-transparent z-10" />
         {/* Placeholder for Image - Using a soft glass effect for elegance */}
         <div className="absolute inset-0 flex items-center justify-center text-[#B86662] font-serif italic text-lg p-12 text-center">
