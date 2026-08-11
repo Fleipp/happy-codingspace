@@ -10,8 +10,8 @@ export const GuaranteeSection = () => (
         viewport={{ once: true }}
         className="bg-[#F8ECE8] rounded-[32px] p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 text-center md:text-left border border-[#D99B92]/20 shadow-inner"
       >
-        <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center text-[#B86662] text-4xl shrink-0 shadow-sm">
-          🛡️
+        <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center text-[#B86662] text-4xl shrink-0 shadow-sm border border-[#D99B92]/10">
+          <span role="img" aria-label="Garantia de 15 dias">🏆</span>
         </div>
         <div className="space-y-4">
           <h2 className="text-3xl font-serif font-bold text-[#332A28]">
