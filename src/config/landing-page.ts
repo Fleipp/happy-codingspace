@@ -78,9 +78,9 @@ export const CONFIG = {
   howItWorks: {
     title: "Simples de começar. Fácil de acompanhar.",
     steps: [
-      { label: "PASSO 1", title: "APRENDA", text: "Conheça as técnicas e exercícios apresentados dentro do método." },
-      { label: "PASSO 2", title: "PRATIQUE", text: "Separe alguns minutos do seu dia e acompanhe a rotina indicada." },
-      { label: "PASSO 3", title: "ACOMPANHE", text: "Registre sua experiência durante os 21 dias e acompanhe sua própria evolução." }
+      { label: "01", title: "Faça sua inscrição", text: "Escolha a opção que combina com você e finalize sua inscrição de forma simples." },
+      { label: "02", title: "Receba seu acesso", text: "Após a confirmação, você recebe acesso ao conteúdo do método para começar sua jornada." },
+      { label: "03", title: "Acompanhe dia após dia", text: "Abra a orientação do dia, acompanhe a sequência e reserve alguns minutos para o seu momento de autocuidado." }
     ],
     disclaimer: "Cada pessoa é única. Experiências e resultados podem variar."
   },
