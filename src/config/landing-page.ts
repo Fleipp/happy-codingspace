@@ -139,15 +139,38 @@ export const CONFIG = {
   },
   forWho: {
     title: "Este método foi criado para quem…",
+    subtitle: "Se você se identifica com algum desses pontos, essa rotina pode fazer sentido para você.",
     items: [
-      "Deseja criar uma rotina de autocuidado facial",
-      "Quer aprender exercícios simples para rosto e pescoço",
-      "Procura um cronograma organizado para acompanhar",
-      "Prefere praticar em casa",
-      "Quer reservar alguns minutos do dia para cuidar de si",
-      "Busca conhecer práticas não invasivas de autocuidado estético"
+      {
+        icon: "♡",
+        title: "Quer cuidar mais dessa região",
+        text: "Você gostaria de incluir a região abaixo do queixo na sua rotina de autocuidado."
+      },
+      {
+        icon: "♡",
+        title: "Busca uma rotina simples",
+        text: "Você prefere orientações práticas, organizadas e fáceis de acompanhar."
+      },
+      {
+        icon: "♡",
+        title: "Tem pouco tempo no dia a dia",
+        text: "Você procura uma rotina que possa ser incorporada aos seus momentos de autocuidado sem complicação."
+      },
+      {
+        icon: "♡",
+        title: "Gosta de acompanhar um passo a passo",
+        text: "Você se sente mais confortável quando sabe o que acompanhar em cada etapa."
+      }
     ],
-    footer: "Você não precisa começar sabendo tudo. O objetivo do método é mostrar uma sequência organizada para acompanhar."
+    notForWho: {
+      title: "Talvez este método não seja para você se…",
+      items: [
+        "Você procura uma transformação garantida em poucos dias.",
+        "Você espera resultados sem acompanhar a rotina proposta.",
+        "Você procura um tratamento médico ou procedimento estético profissional."
+      ],
+      footer: "A proposta aqui é oferecer uma rotina guiada de autocuidado para você acompanhar no seu ritmo."
+    }
   },
   testimonials: {
     title: "O que elas estão dizendo",
