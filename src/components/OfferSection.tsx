@@ -23,53 +23,60 @@ export const OfferSection = () => (
             viewport={{ once: true }}
             className={`bg-white border-2 ${offer.featured ? 'border-[#D99B92] shadow-[0_20px_50px_rgba(217,155,146,0.25)]' : 'border-[#D99B92]/20 shadow-lg'} rounded-[40px] overflow-hidden relative flex flex-col`}
           >
-            {offer.featured && (
-              <div className="bg-gradient-to-r from-[#D99B92] to-[#B86662] py-3 text-white text-xs font-bold tracking-[0.2em] uppercase">
-                Mais Escolhido
+            {offer.tag && (
+              <div className="bg-[#D99B92] py-2 text-white text-[10px] font-bold tracking-[0.2em] uppercase">
+                {offer.tag}
               </div>
             )}
 
             <div className="p-8 md:p-10 space-y-6 flex-grow flex flex-col">
-              <div className="space-y-2">
-                <h3 className="text-2xl font-serif font-black text-[#332A28]">
+              <div className="space-y-4">
+                <h3 className="text-2xl font-serif font-black text-[#332A28] uppercase tracking-wider">
                   {offer.title}
                 </h3>
-                <p className="text-sm text-[#6F625E]">
-                  {offer.subtitle}
-                </p>
-              </div>
-              
-              <ul className="space-y-4 text-left py-6 flex-grow">
-                {offer.items.map((item, i) => (
-                  <li key={i} className="flex items-start gap-3 text-[#332A28] text-sm">
-                    <span className="w-5 h-5 bg-[#D99B92]/20 text-[#B86662] rounded-full flex items-center justify-center text-[10px] shrink-0 mt-0.5">✓</span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <div className="py-6 border-t border-[#D99B92]/20">
-                <p className="text-[#6F625E] line-through text-xs mb-1">
-                  De: {offer.price.original}
-                </p>
-                <div className="flex flex-col items-center">
-                  <span className="text-xs text-[#B86662] font-bold uppercase tracking-widest">Por apenas</span>
-                  <div className="flex items-baseline gap-1 mt-1">
+                
+                <div className="py-4">
+                  <div className="flex items-center justify-center gap-1">
                     <span className="text-2xl font-serif font-bold text-[#332A28]">R$</span>
-                    <span className="text-5xl font-serif font-bold text-[#332A28]">
+                    <span className="text-6xl md:text-7xl font-serif font-bold text-[#332A28]">
                       {offer.price.current}
                     </span>
                   </div>
-                  <span className="text-sm text-[#6F625E] mt-1 font-medium">
+                  <span className="text-xs text-[#6F625E] mt-2 block font-medium uppercase tracking-widest">
                     {offer.price.installments}
                   </span>
                 </div>
               </div>
+              
+              <div className="space-y-6 flex-grow">
+                <ul className="space-y-3 text-left">
+                  {offer.items.map((item, i) => (
+                    <li key={i} className="flex items-start gap-3 text-[#332A28] text-sm">
+                      <span className="text-[#D99B92] font-bold text-lg leading-none">✓</span>
+                      <span className={item.includes("EXCLUSIVO") ? "font-bold text-[#B86662]" : ""}>{item}</span>
+                    </li>
+                  ))}
+                </ul>
 
-              <div className="space-y-4">
+                {offer.bonus && (
+                  <div className="text-left bg-[#FFF9F6] p-5 rounded-2xl border border-[#D99B92]/20">
+                    <p className="text-xs font-bold text-[#B86662] uppercase tracking-widest mb-3">+ Você também recebe:</p>
+                    <ul className="space-y-2">
+                      {offer.bonus.map((bonusItem, i) => (
+                        <li key={i} className="flex items-center gap-2 text-[#332A28] text-sm">
+                          <span className="w-1.5 h-1.5 rounded-full bg-[#D99B92]"></span>
+                          {bonusItem}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+
+              <div className="pt-6">
                 <CTAButton 
                   href={offer.checkoutUrl} 
-                  className="w-full"
+                  className="w-full text-base md:text-lg py-6"
                   variant={offer.featured ? 'primary' : 'secondary'}
                 >
                   {offer.cta}

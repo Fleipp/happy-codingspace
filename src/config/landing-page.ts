@@ -161,46 +161,54 @@ export const CONFIG = {
   offers: [
     {
       id: "basic",
-      title: "Desafio 21 Dias",
-      subtitle: "Acesso completo ao cronograma e exercícios.",
+      title: "ACESSO ESSENCIAL",
+      subtitle: "Tenha acesso ao Método Adeus Papada e comece sua jornada de 21 dias.",
       items: [
-        "Programa de 21 dias",
-        "Guia passo a passo",
-        "Exercícios faciais",
-        "Técnicas de automassagem"
+        "Jornada organizada em 21 dias",
+        "Aulas guiadas passo a passo",
+        "Técnicas de automassagem facial",
+        "Exercícios para a região da papada",
+        "Acesso pelo celular ou computador",
+        "1 ano de acesso"
       ],
       price: {
-        original: "R$ 47",
-        current: "10,00",
-        installments: "À vista"
+        current: "10",
+        installments: "Pagamento único"
       },
-      cta: "QUERO O ACESSO BÁSICO",
+      cta: "QUERO O ACESSO ESSENCIAL",
       checkoutUrl: "https://checkout.wiven.com.br/checkout/cmslxqby50dhq01odysgk3pfn?offer=B241Y0Y"
     },
     {
       id: "premium",
-      title: "Método Completo + Bônus",
-      subtitle: "A experiência completa com materiais extras.",
+      title: "ACESSO COMPLETO",
+      tag: "MAIS COMPLETO",
+      subtitle: "A experiência completa com materiais extras e acesso vitalício.",
       items: [
-        "Tudo do plano básico",
+        "Jornada organizada em 21 dias",
+        "Aulas guiadas passo a passo",
+        "Técnicas de automassagem facial",
+        "Exercícios para a região da papada",
+        "Acesso pelo celular ou computador",
+        "Acesso vitalício (EXCLUSIVO DO COMPLETO)"
+      ],
+      bonus: [
         "Calendário de acompanhamento",
         "Materiais complementares",
-        "Acesso vitalício"
+        "Suporte para dúvidas"
       ],
       price: {
-        original: "R$ 97",
-        current: "27,00",
-        installments: "À vista"
+        current: "27",
+        installments: "Pagamento único"
       },
-      cta: "QUERO O MÉTODO COMPLETO",
+      cta: "QUERO O ACESSO COMPLETO",
       checkoutUrl: "https://checkout.wiven.com.br/checkout/cmslzganf0dt301odjdw91dcy?offer=1DK0ZAZ",
       featured: true
     }
   ],
   offerSection: {
-    title: "Escolha a melhor oferta para você",
-    subtitle: "Comece hoje o seu desafio de 21 dias no seu próprio ritmo.",
-    footer: "Compra segura • Acesso digital"
+    title: "Escolha como você quer começar",
+    subtitle: "Tenha acesso ao Método Adeus Papada e comece sua jornada de 21 dias.",
+    footer: "Pagamento seguro • Acesso após a confirmação"
   },
   warranty: {
     days: "15 DIAS",
