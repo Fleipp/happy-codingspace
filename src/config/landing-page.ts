@@ -86,16 +86,31 @@ export const CONFIG = {
   },
   included: {
     title: "Tudo organizado para acompanhar seus 21 dias",
+    subtitle: "Você não precisa descobrir sozinha o que fazer. A sequência já está organizada para você abrir, acompanhar e incluir na sua rotina.",
     items: [
-      "Programa completo de 21 dias",
-      "Guia passo a passo",
-      "Sequências de exercícios faciais",
-      "Técnicas de automassagem",
-      "Calendário de acompanhamento",
-      "Orientações para manter consistência",
-      "Conteúdo acessível pelo celular, tablet ou computador"
+      {
+        title: "Jornada organizada em 21 dias",
+        text: "Uma sequência clara para saber o que acompanhar em cada etapa."
+      },
+      {
+        title: "Aulas guiadas",
+        text: "Orientações em vídeo para acompanhar os movimentos de forma simples."
+      },
+      {
+        title: "Rotina prática de acompanhar",
+        text: "Conteúdo pensado para encaixar o momento de autocuidado no dia a dia."
+      },
+      {
+        title: "Acesso pelo celular",
+        text: "Acompanhe as orientações de onde estiver, sem precisar de equipamentos complicados."
+      },
+      {
+        title: "Conteúdo organizado em um só lugar",
+        text: "Nada de ficar procurando qual é o próximo passo da sequência."
+      }
     ],
-    cta: "EU QUERO COMEÇAR"
+    highlight: "É só entrar, abrir o conteúdo do dia e acompanhar.",
+    cta: "QUERO TER ACESSO AO MÉTODO"
   },
   routine: {
     title: "Alguns minutos dedicados a você",
