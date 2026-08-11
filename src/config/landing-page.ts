@@ -33,7 +33,7 @@ export const CONFIG = {
     intro: "Talvez você já tenha procurado o melhor ângulo para uma foto, levantado um pouco o rosto diante do espelho ou simplesmente desejado dedicar mais atenção ao contorno facial.",
     cards: [
       { emoji: "📸", text: "Evita determinados ângulos nas fotos" },
-      { emoji: "🪞", text: "Gostaria de valorizar mais o contorno facial" },
+      { emoji: "👩", text: "Gostaria de valorizar mais o contorno facial" },
       { emoji: "⏰", text: "Quer uma rotina simples que caiba no dia a dia" },
       { emoji: "🏠", text: "Prefere começar com práticas de autocuidado em casa" }
     ],
