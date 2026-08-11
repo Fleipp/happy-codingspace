@@ -1,5 +1,5 @@
 import { CONFIG, CHECKOUT_URL } from "../config/landing-page";
-import { CTAButton } from "../components/ui/CTAButton";
+import { CTAButton } from "./ui/CTAButton";
 import { motion } from "framer-motion";
 
 export const HeroSection = () => (
