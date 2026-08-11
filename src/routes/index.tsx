@@ -34,19 +34,23 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div className="min-h-screen bg-[#FFF9F6] text-[#332A28] font-sans selection:bg-[#D99B92]/20 scroll-smooth relative overflow-hidden">
-      {/* Soft elegant background textures - Premium Paper Effect */}
-      <div className="fixed inset-0 pointer-events-none -z-20 opacity-60 bg-[url('https://www.transparenttextures.com/patterns/handmade-paper.png')] mix-blend-multiply" />
-      <div className="fixed inset-0 pointer-events-none -z-20 opacity-[0.03] bg-[url('https://www.transparenttextures.com/patterns/natural-paper.png')] mix-blend-overlay" />
+      {/* High-visibility Premium Background */}
+      <div className="fixed inset-0 pointer-events-none -z-20 bg-[#FFF9F6]" />
+      
+      {/* Visible paper texture */}
+      <div className="fixed inset-0 pointer-events-none -z-20 opacity-80 bg-[url('https://www.transparenttextures.com/patterns/cream-paper.png')]" />
+      
+      {/* Decorative grain / noise for premium feel */}
+      <div className="fixed inset-0 pointer-events-none -z-10 opacity-[0.15] bg-[url('https://www.transparenttextures.com/patterns/stardust.png')]" />
 
+      {/* Large, visible organic shapes */}
+      <div className="absolute top-0 right-0 w-[80%] h-[1000px] bg-gradient-radial from-[#F8ECE8] via-[#F8ECE8]/20 to-transparent -z-10 blur-[120px] pointer-events-none opacity-90" />
+      <div className="absolute top-[10%] -left-[20%] w-[800px] h-[800px] bg-[#D99B92]/20 rounded-full -z-10 blur-[100px] pointer-events-none" />
+      <div className="absolute top-[40%] -right-[10%] w-[900px] h-[900px] bg-[#C9A46A]/15 rounded-full -z-10 blur-[150px] pointer-events-none" />
+      <div className="absolute bottom-[5%] -left-[10%] w-[1000px] h-[1000px] bg-[#F8ECE8]/80 rounded-full -z-10 blur-[120px] pointer-events-none" />
       
-      {/* Main decorative organic gradients */}
-      <div className="absolute top-0 right-0 w-2/3 h-[1200px] bg-gradient-radial from-[#F8ECE8]/80 via-[#F8ECE8]/30 to-transparent -z-10 blur-[120px] pointer-events-none" />
-      <div className="absolute top-[15%] -left-[10%] w-[600px] h-[600px] bg-[#D99B92]/10 rounded-full -z-10 blur-[100px] pointer-events-none" />
-      <div className="absolute top-[45%] right-[-5%] w-[700px] h-[700px] bg-[#C9A46A]/8 rounded-full -z-10 blur-[130px] pointer-events-none" />
-      <div className="absolute bottom-[10%] left-[-5%] w-[800px] h-[800px] bg-[#F8ECE8]/60 rounded-full -z-10 blur-[110px] pointer-events-none" />
-      
-      {/* Extra floating subtle accents */}
-      <div className="absolute top-[75%] right-[15%] w-[400px] h-[400px] bg-[#D99B92]/5 rounded-full -z-10 blur-[80px] animate-pulse pointer-events-none" />
+      {/* Border framing the page for a 'stationery' look */}
+      <div className="fixed inset-4 border border-[#D99B92]/10 pointer-events-none z-50 rounded-lg" />
 
       <HeroSection />
       <ProblemSection />
