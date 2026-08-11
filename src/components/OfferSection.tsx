@@ -18,8 +18,9 @@ export const OfferSection = () => (
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="bg-white border-2 border-[#D99B92]/30 rounded-[40px] overflow-hidden shadow-[0_20px_50px_rgba(217,155,146,0.15)] relative max-w-3xl mx-auto"
+        className="bg-white border-2 border-[#D99B92]/40 rounded-[40px] overflow-hidden shadow-[0_20px_50px_rgba(217,155,146,0.25)] relative max-w-3xl mx-auto"
       >
+
         <div className="bg-gradient-to-r from-[#D99B92] to-[#B86662] py-5 text-white text-sm font-bold tracking-[0.2em] uppercase">
           Oferta Exclusiva de Lançamento
         </div>

@@ -27,7 +27,7 @@ export const ProblemSection = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
-            className="p-8 bg-[#FFF9F6] rounded-[24px] text-left border border-[#F8ECE8] shadow-sm"
+            className="p-8 bg-white rounded-[24px] text-left border border-[#F8ECE8] shadow-md hover:shadow-lg transition-shadow"
           >
             <span className="text-3xl mb-4 block">{card.emoji}</span>
             <p className="text-[#332A28] font-medium">{card.text}</p>

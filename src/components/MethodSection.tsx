@@ -26,7 +26,7 @@ export const MethodSection = () => (
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
-            className="bg-white p-8 rounded-[24px] shadow-sm border border-[#D99B92]/10 flex flex-col items-center text-center space-y-4"
+            className="bg-white p-8 rounded-[24px] shadow-md border border-[#D99B92]/10 flex flex-col items-center text-center space-y-4 hover:shadow-lg transition-shadow"
           >
             <div className="w-12 h-12 bg-[#F8ECE8] rounded-full flex items-center justify-center text-[#B86662] font-serif font-bold text-xl">
               {step.number}
