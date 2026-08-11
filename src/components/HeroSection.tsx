@@ -1,8 +1,10 @@
 import { CONFIG, CHECKOUT_URL } from "../config/landing-page";
 import { CTAButton } from "./ui/CTAButton";
 import { motion } from "framer-motion";
+import heroAsset from "../assets/hero-beauty.png.asset.json";
 
 export const HeroSection = () => (
+
   <section className="pt-32 pb-20 px-6 container mx-auto">
     <div className="grid lg:grid-cols-2 gap-12 items-center">
       <motion.div 
@@ -32,16 +34,17 @@ export const HeroSection = () => (
         </div>
       </motion.div>
       <div className="relative h-[500px] lg:h-[600px] bg-white rounded-[32px] overflow-hidden shadow-2xl border border-[#D99B92]/20">
+        <img 
+          src={heroAsset.url} 
+          alt="Mulher praticando autocuidado facial" 
+          className="absolute inset-0 w-full h-full object-cover"
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-[#D99B92]/20 to-transparent z-10" />
-        {/* Placeholder for Image - Using a soft glass effect for elegance */}
-        <div className="absolute inset-0 flex items-center justify-center text-[#B86662] font-serif italic text-lg p-12 text-center">
-          <div className="relative z-20">
-            [Imagem Premium: Uma mulher com pele radiante em um momento de calma e autocuidado]
-          </div>
-        </div>
+        
         {/* Abstract decorative shape */}
         <div className="absolute -bottom-20 -right-20 w-80 h-80 bg-white/30 rounded-full blur-3xl" />
       </div>
     </div>
   </section>
 );
+
