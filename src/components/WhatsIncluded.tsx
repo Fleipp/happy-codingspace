@@ -2,7 +2,7 @@ import { CONFIG } from "../config/landing-page";
 import { CTAButton } from "./ui/CTAButton";
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
-import mockupAsset from "../assets/mockup-produto.png.asset.json";
+import mockupAsset from "../assets/organization-beauty.png.asset.json";
 
 export const WhatsIncluded = () => (
   <section className="py-24 bg-[#F8ECE8]/30 px-6">
