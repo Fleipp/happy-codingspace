@@ -16,6 +16,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
+    <div className="min-h-screen bg-[#fcfbf8] text-slate-900 font-sans">
 
       {/* Header */}
       <header className="fixed w-full z-50 bg-[#fcfbf8]/80 backdrop-blur-md border-b border-stone-200">
