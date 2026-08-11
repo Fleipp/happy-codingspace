@@ -1,7 +1,7 @@
 import { CONFIG, CHECKOUT_URL } from "../config/landing-page";
 import { CTAButton } from "./ui/CTAButton";
 import { motion } from "framer-motion";
-import heroAsset from "../assets/hero-beauty.png.asset.json";
+import heroAsset from "../assets/hero-beauty-new.png.asset.json";
 
 export const HeroSection = () => (
 
