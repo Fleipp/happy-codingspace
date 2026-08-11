@@ -27,7 +27,7 @@ export const OfferSection = () => (
 
         
         <div className="p-8 md:p-12 space-y-8">
-          <h3 className="text-2xl font-serif font-bold text-[#332A28]">
+          <h3 className="text-2xl font-serif font-black text-[#332A28]">
             {CONFIG.productName}
           </h3>
           
