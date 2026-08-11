@@ -33,7 +33,12 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="min-h-screen bg-[#FFF9F6] text-[#332A28] font-sans selection:bg-[#D99B92]/20 scroll-smooth">
+    <div className="min-h-screen bg-[#FFF9F6] text-[#332A28] font-sans selection:bg-[#D99B92]/20 scroll-smooth relative overflow-hidden">
+      {/* Decorative background elements for elegance */}
+      <div className="absolute top-0 right-0 w-1/3 h-[800px] bg-gradient-to-bl from-[#F8ECE8]/60 to-transparent -z-10 blur-3xl pointer-events-none" />
+      <div className="absolute top-[20%] -left-20 w-80 h-80 bg-[#D99B92]/5 rounded-full -z-10 blur-3xl pointer-events-none" />
+      <div className="absolute top-[60%] right-0 w-[500px] h-[500px] bg-[#C9A46A]/5 rounded-full -z-10 blur-3xl pointer-events-none" />
+
       <HeroSection />
       <ProblemSection />
       <MethodSection />
