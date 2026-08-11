@@ -37,7 +37,7 @@ export const ProblemSection = () => (
 
       <div className="pt-6 space-y-6">
         <p className="text-[#6F625E] font-medium italic">
-          Foi pensando em transformar essa intenção em uma rotina organizada que nasceu o <span className="font-black text-[#332A28]">MÉTODO ADEUS PAPADA EM 21 DIAS</span>.
+          Foi pensando em transformar essa intenção em uma rotina organizada que nasceu o <span className="font-black text-[#332A28]">Método Adeus Papada em 21 Dias</span>.
         </p>
         <CTAButton href="#oferta" variant="secondary">
           {CONFIG.problem.cta}
