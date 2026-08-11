@@ -111,7 +111,12 @@ export const CONFIG = {
       text: "Finalmente consegui criar uma rotina que realmente cabe no meu dia. O que mais gostei foi ter tudo organizado. Antes eu via exercícios e massagens separados na internet e nunca sabia por onde começar. Com o método, passei a seguir uma sequência e transformei aqueles minutos em um momento só meu. Foi muito mais fácil manter a constância.", 
       stars: 5 
     },
-    { name: "[Nome da cliente]", location: "[Cidade / Estado]", text: "[INSERIR DEPOIMENTO REAL DA CLIENTE]", stars: 5 },
+    { 
+      name: "Dona Ivonete", 
+      location: "", 
+      text: "O método mudou a forma como eu cuido do meu rosto. Comecei buscando uma rotina para cuidar melhor da região do rosto e pescoço, mas acabei ganhando um novo hábito de autocuidado. As orientações são simples de acompanhar e eu adorava marcar cada dia concluído. Ao longo do desafio, comecei a perceber mudanças na minha própria aparência e, principalmente, fiquei muito mais atenta ao meu autocuidado.", 
+      stars: 5 
+    },
     { name: "[Nome da cliente]", location: "[Cidade / Estado]", text: "[INSERIR DEPOIMENTO REAL DA CLIENTE]", stars: 5 }
   ],
   offers: [
