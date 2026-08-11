@@ -5,37 +5,45 @@ import heroAsset from "../assets/hero-beauty-new.png.asset.json";
 
 export const HeroSection = () => (
 
-  <section className="pt-24 pb-12 px-6 container mx-auto">
-    <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+  <section className="pt-16 pb-12 px-6 container mx-auto">
+    <div className="grid lg:grid-cols-[1.1fr_0.9fr] gap-8 lg:gap-8 items-center">
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="space-y-8"
+        className="space-y-6 flex flex-col items-center lg:items-start text-center lg:text-left order-1"
       >
         <span className="inline-block px-3 py-1 bg-[#F8ECE8] rounded-full text-xs font-semibold tracking-widest uppercase text-[#B86662]">
           {CONFIG.hero.badge}
         </span>
-        <h1 className="text-5xl md:text-7xl font-serif font-black text-[#332A28] leading-tight">
+        <h1 className="text-5xl md:text-7xl font-serif font-black text-[#332A28] leading-[1.1]">
           {CONFIG.hero.headline}
         </h1>
-        <p className="text-xl md:text-2xl text-[#332A28] max-w-xl font-medium leading-relaxed">
+        <p className="text-xl md:text-2xl text-[#332A28] max-w-xl font-bold leading-relaxed contrast-125">
           {CONFIG.hero.subheadline}
         </p>
-        <div className="pt-6">
+        
+        {/* Rapid Benefits */}
+        <div className="flex flex-wrap justify-center lg:justify-start gap-x-4 gap-y-2 text-[#B86662] font-semibold text-sm md:text-base">
+          {CONFIG.hero.benefits.map((benefit, i) => (
+            <span key={i} className="whitespace-nowrap">{benefit}</span>
+          ))}
+        </div>
+
+        <div className="pt-4 flex flex-col items-center lg:items-start w-full">
           <CTAButton 
-            href="#oferta" 
-            className="scale-110 origin-left shadow-[0_10px_30px_rgba(217,155,146,0.4)] hover:shadow-[0_15px_40px_rgba(217,155,146,0.6)] transition-all duration-300"
+            href="#ofertas" 
+            className="w-full md:w-auto px-12 py-6 text-xl shadow-[0_10px_30px_rgba(217,155,146,0.4)] hover:shadow-[0_15px_40px_rgba(217,155,146,0.6)] transition-all duration-300"
           >
             {CONFIG.hero.cta}
           </CTAButton>
-          <p className="mt-6 text-sm md:text-base font-semibold text-[#6F625E] opacity-90">{CONFIG.hero.footer}</p>
+          <p className="mt-4 text-sm md:text-base font-semibold text-[#6F625E]">{CONFIG.hero.footer}</p>
         </div>
       </motion.div>
       <motion.div 
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="relative h-[550px] lg:h-[700px] w-full bg-white rounded-[32px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-[#D99B92]/20 group"
+        className="relative h-[400px] lg:h-[750px] w-full bg-white rounded-[32px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-[#D99B92]/20 group order-2 lg:order-2"
       >
         <motion.img 
           initial={{ scale: 1.1 }}
