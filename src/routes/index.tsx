@@ -1,19 +1,21 @@
-import { createFileRoute, Head } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Método Adeus Papada em 21 Dias | Sua Nova Rotina" },
+      {
+        name: "description",
+        content:
+          "Conheça o Método Adeus Papada em 21 Dias — um passo a passo simples e prático para transformar sua rotina de autocuidado.",
+      },
+    ],
+  }),
   component: Index,
 });
 
 function Index() {
   return (
-    <div className="min-h-screen bg-[#fcfbf8] text-slate-900 font-sans">
-      <Head>
-        <title>Método Adeus Papada em 21 Dias | Sua Nova Rotina</title>
-        <meta
-          name="description"
-          content="Conheça o Método Adeus Papada em 21 Dias — um passo a passo simples e prático para transformar sua rotina de autocuidado."
-        />
-      </Head>
 
       {/* Header */}
       <header className="fixed w-full z-50 bg-[#fcfbf8]/80 backdrop-blur-md border-b border-stone-200">
