@@ -5,7 +5,7 @@ export const Footer = () => (
     <div className="container mx-auto max-w-6xl">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12">
         <div className="space-y-4">
-          <h3 className="text-xl font-serif font-bold text-[#332A28] uppercase tracking-tight">
+          <h3 className="text-xl font-serif font-black text-[#332A28] uppercase tracking-tight">
             {CONFIG.productName}
           </h3>
           <div className="flex gap-6 text-sm text-[#6F625E]">
