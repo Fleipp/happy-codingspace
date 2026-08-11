@@ -34,8 +34,10 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div className="min-h-screen bg-[#FFF9F6] text-[#332A28] font-sans selection:bg-[#D99B92]/20 scroll-smooth relative overflow-hidden">
-      {/* Soft elegant background textures */}
-      <div className="fixed inset-0 pointer-events-none -z-20 opacity-40 bg-[url('https://www.transparenttextures.com/patterns/natural-paper.png')] mix-blend-multiply" />
+      {/* Soft elegant background textures - Premium Paper Effect */}
+      <div className="fixed inset-0 pointer-events-none -z-20 opacity-60 bg-[url('https://www.transparenttextures.com/patterns/handmade-paper.png')] mix-blend-multiply" />
+      <div className="fixed inset-0 pointer-events-none -z-20 opacity-[0.03] bg-[url('https://www.transparenttextures.com/patterns/natural-paper.png')] mix-blend-overlay" />
+
       
       {/* Main decorative organic gradients */}
       <div className="absolute top-0 right-0 w-2/3 h-[1200px] bg-gradient-radial from-[#F8ECE8]/80 via-[#F8ECE8]/30 to-transparent -z-10 blur-[120px] pointer-events-none" />
