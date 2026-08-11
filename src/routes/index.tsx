@@ -1,5 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { CONFIG } from "../config/landing-page";
+import { HeroSection } from "../components/HeroSection";
+import { ProblemSection } from "../components/ProblemSection";
+import { MethodSection } from "../components/MethodSection";
+import { OfferSection } from "../components/OfferSection";
+import { Footer } from "../components/Footer";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -9,6 +13,10 @@ export const Route = createFileRoute("/")({
         name: "description",
         content: "Conheça uma rotina guiada de 21 dias com exercícios faciais, automassagem e práticas de autocuidado para rosto e pescoço.",
       },
+      { property: "og:title", content: "Método Adeus Papada em 21 Dias" },
+      { property: "og:description", content: "Transforme sua rotina de autocuidado em 21 dias." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Index,
@@ -16,23 +24,12 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="min-h-screen bg-[#FFF9F6] text-[#332A28] font-sans selection:bg-[#D99B92]/20">
-      <main>
-        {/* Placeholder for Sections */}
-        <section className="py-20 text-center">
-            <h1 className="text-5xl md:text-7xl font-serif text-[#332A28]">
-                {CONFIG.hero.headline}
-            </h1>
-            <p className="mt-6 text-xl text-[#6F625E] max-w-2xl mx-auto px-6">
-                {CONFIG.hero.subheadline}
-            </p>
-            <div className="mt-10">
-                <a href="#oferta" className="bg-[#B86662] text-white px-8 py-4 rounded-full font-medium text-lg hover:bg-[#A35853] transition-all shadow-lg hover:shadow-xl">
-                    {CONFIG.hero.cta}
-                </a>
-            </div>
-        </section>
-      </main>
+    <div className="min-h-screen bg-[#FFF9F6] text-[#332A28] font-sans selection:bg-[#D99B92]/20 scroll-smooth">
+      <HeroSection />
+      <ProblemSection />
+      <MethodSection />
+      <OfferSection />
+      <Footer />
     </div>
   );
 }

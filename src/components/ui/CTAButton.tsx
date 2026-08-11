@@ -1,5 +1,5 @@
 import React from "react";
-import { cn } from "../lib/utils";
+import { cn } from "../../lib/utils";
 
 interface CTAButtonProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
   variant?: "primary" | "secondary";
