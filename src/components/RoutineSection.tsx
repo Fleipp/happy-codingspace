@@ -1,10 +1,10 @@
 import { CONFIG } from "../config/landing-page";
 import { motion } from "framer-motion";
-import ritual1Asset from "@/assets/ritual-1.png.asset.json";
-import ritual2Asset from "@/assets/ritual-2.png.asset.json";
-import ritual3Asset from "@/assets/ritual-3.png.asset.json";
+import ritual1 from "../ritual-1.png";
+import ritual2 from "../ritual-2.png";
+import ritual3 from "../ritual-3.png";
 
-const ritualImages = [ritual1Asset.url, ritual2Asset.url, ritual3Asset.url];
+const ritualImages = [ritual1, ritual2, ritual3];
 
 export const RoutineSection = () => (
   <section className="py-24 bg-white px-6 overflow-hidden">
