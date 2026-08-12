@@ -10,10 +10,21 @@ export default defineConfig({
   tanstackStart: {
     prerender: {
       enabled: true,
-      autoStaticPathsDiscovery: true,
-      crawlLinks: true,
+      autoStaticPathsDiscovery: false,
+      crawlLinks: false,
       failOnError: true,
     },
+
+    pages: [
+      {
+        path: "/",
+        prerender: {
+          enabled: true,
+          outputPath: "/index.html",
+        },
+      },
+    ],
+
     server: { entry: "server" },
   },
 });
