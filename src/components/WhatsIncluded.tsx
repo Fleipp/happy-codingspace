@@ -83,7 +83,7 @@ export const WhatsIncluded = () => (
 
           <div className="space-y-6 pt-4">
             <p className="text-[#B86662] font-bold text-lg md:text-xl italic border-l-4 border-[#B86662]/30 pl-4 py-2">
-              “{CONFIG.included.highlight}”
+              “{CONFIG.included.highlight.replace("abrir o conteúdo do dia", "abrir o e-book")}”
             </p>
             
             <div className="pt-2">
