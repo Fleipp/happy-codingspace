@@ -50,7 +50,7 @@ export const HeroSection = () => (
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
-          src={heroAsset.url} 
+          src={heroAsset}
           alt="Mulher praticando autocuidado facial" 
           className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
