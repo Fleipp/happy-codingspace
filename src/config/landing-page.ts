@@ -17,7 +17,7 @@ export const CONFIG = {
     textSecondary: "#6F625E",
   },
   hero: {
-    badge: "ROTINA GUIADA • 21 DIAS",
+    badge: "JORNADA GUIADA • 21 DIAS",
     headline: "Método Adeus Papada em 21 Dias",
     subheadline: "Uma rotina guiada de poucos minutos por dia para cuidar da região abaixo do queixo e incluir esse momento de autocuidado na sua rotina durante 21 dias.",
     benefits: [
@@ -64,7 +64,7 @@ export const CONFIG = {
       {
         number: "8–14",
         title: "Evolua sua rotina",
-        text: "Continue a sequência com novas orientações e acompanhe as aulas de forma progressiva e organizada."
+        text: "Continue a sequência com novas orientações e acompanhe o conteúdo de forma progressiva e organizada."
       },
       {
         number: "15–21",
@@ -93,8 +93,8 @@ export const CONFIG = {
         text: "Uma sequência clara para saber o que acompanhar em cada etapa."
       },
       {
-        title: "Aulas guiadas",
-        text: "Orientações em vídeo para acompanhar os movimentos de forma simples."
+        title: "Orientações detalhadas",
+        text: "Um passo a passo completo para acompanhar os movimentos de forma simples."
       },
       {
         title: "Rotina prática de acompanhar",
@@ -205,7 +205,7 @@ export const CONFIG = {
       subtitle: "Tenha acesso ao Método Adeus Papada e comece sua jornada de 21 dias.",
       items: [
         "Jornada organizada em 21 dias",
-        "Aulas guiadas passo a passo",
+        "Orientações passo a passo",
         "Técnicas de automassagem facial",
         "Exercícios para a região da papada",
         "Acesso pelo celular ou computador",
@@ -225,7 +225,7 @@ export const CONFIG = {
       subtitle: "A experiência completa com materiais extras e acesso vitalício.",
       items: [
         "Jornada organizada em 21 dias",
-        "Aulas guiadas passo a passo",
+        "Orientações passo a passo",
         "Técnicas de automassagem facial",
         "Exercícios para a região da papada",
         "Acesso pelo celular ou computador",
@@ -275,11 +275,11 @@ export const CONFIG = {
   faq: [
     { 
       q: "Como funciona o Método Adeus Papada?", 
-      a: "O método é uma jornada guiada e organizada em 21 dias. Você terá acesso a uma sequência clara de orientações e aulas em vídeo para acompanhar dia após dia, facilitando a criação de uma nova rotina de autocuidado facial." 
+      a: "O método é uma jornada guiada e organizada em 21 dias através de um e-book completo. Você terá acesso a uma sequência clara de orientações e ilustrações para acompanhar dia após dia, facilitando a criação de uma nova rotina de autocuidado facial." 
     },
     { 
       q: "Quanto tempo preciso dedicar por dia?", 
-      a: "O método foi desenhado para ser prático: você precisará de apenas 10 a 15 minutos por dia para realizar as sequências propostas e acompanhar as orientações." 
+      a: "O método foi desenhado para ser prático: você precisará de apenas 10 a 15 minutos por dia para realizar as sequências propostas no material e seguir as orientações." 
     },
     { 
       q: "Preciso de algum equipamento?", 
@@ -290,8 +290,8 @@ export const CONFIG = {
       a: "Imediatamente após a confirmação do pagamento, você receberá um e-mail com todos os dados para acessar nossa plataforma exclusiva e começar sua jornada." 
     },
     { 
-      q: "Posso assistir pelo celular?", 
-      a: "Sim, a plataforma é totalmente compatível com celular, tablet e computador, permitindo que você acompanhe as aulas de onde for mais confortável para você." 
+      q: "Posso ler pelo celular?", 
+      a: "Sim, o material é totalmente compatível com celular, tablet e computador, permitindo que você acompanhe o conteúdo de onde for mais confortável para você." 
     },
     { 
       q: "Por quanto tempo terei acesso?", 

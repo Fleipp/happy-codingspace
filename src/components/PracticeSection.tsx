@@ -1,6 +1,6 @@
 import { CONFIG } from "../config/landing-page";
 import { motion } from "framer-motion";
-import { PlayCircle, Shield, Calendar } from "lucide-react";
+import { BookOpen, Shield, Calendar } from "lucide-react";
 
 export const PracticeSection = () => {
   const content = {
@@ -9,10 +9,10 @@ export const PracticeSection = () => {
     pilars: [
       {
         number: "01",
-        title: "Movimentos guiados",
-        highlight: "guiados",
+        title: "Orientação detalhada",
+        highlight: "detalhada",
         text: "Acompanhe orientações passo a passo para realizar os movimentos propostos para a região.",
-        icon: <PlayCircle className="w-8 h-8" />
+        icon: <BookOpen className="w-8 h-8" />
       },
       {
         number: "02",
