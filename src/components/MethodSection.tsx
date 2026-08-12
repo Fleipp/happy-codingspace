@@ -76,7 +76,7 @@ export const MethodSection = () => (
               Por que uma sequência de 21 dias?
             </h3>
             <p className="text-[#6F625E] leading-relaxed">
-              Porque quando existe um passo a passo, fica mais fácil saber o que fazer a cada dia. Em vez de receber vários conteúdos soltos, você acompanha uma sequência organizada e incorpora esse momento à sua rotina gradualmente.
+              Porque quando existe um passo a passo, fica mais fácil saber o que fazer a cada dia. Em vez de receber vários conteúdos soltos, você lê e acompanha uma sequência organizada através de um material completo para incorporar esse momento à sua rotina gradualmente.
             </p>
           </div>
 
