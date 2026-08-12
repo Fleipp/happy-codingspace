@@ -17,7 +17,7 @@ export const CONFIG = {
     textSecondary: "#6F625E",
   },
   hero: {
-    badge: "ROTINA GUIADA • 21 DIAS",
+    badge: "JORNADA GUIADA • 21 DIAS",
     headline: "Método Adeus Papada em 21 Dias",
     subheadline: "Uma rotina guiada de poucos minutos por dia para cuidar da região abaixo do queixo e incluir esse momento de autocuidado na sua rotina durante 21 dias.",
     benefits: [
