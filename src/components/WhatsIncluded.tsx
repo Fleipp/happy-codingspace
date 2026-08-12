@@ -2,7 +2,7 @@ import { CONFIG } from "../config/landing-page";
 import { CTAButton } from "./ui/CTAButton";
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
-import mockupAsset from "../assets/organization-beauty-v2.png.asset.json";
+import mockupAsset from "../organization-beauty-v2.png";
 
 export const WhatsIncluded = () => (
   <section className="py-20 bg-[#F8ECE8]/30 px-6 overflow-hidden">
@@ -41,7 +41,7 @@ export const WhatsIncluded = () => (
             
             <div className="relative aspect-[4/3] lg:aspect-square bg-white rounded-[32px] md:rounded-[40px] shadow-2xl overflow-hidden border border-[#D99B92]/20 flex items-center justify-center transform group-hover:scale-[1.02] transition-transform duration-500">
               <img 
-                src={mockupAsset.url} 
+                src={mockupAsset} 
                 alt="Mockup do Método Adeus Papada" 
                 className="w-full h-full object-cover"
               />
