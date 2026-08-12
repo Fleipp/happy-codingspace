@@ -50,7 +50,7 @@ export const HowItWorks = () => (
       </div>
 
       <div className="mt-16 flex flex-wrap justify-center gap-6 md:gap-12">
-        {['Acesso online', 'Assista pelo celular', 'Faça no seu ritmo'].map((benefit, idx) => (
+        {['Acesso online', 'Leia pelo celular', 'Faça no seu ritmo'].map((benefit, idx) => (
           <div key={idx} className="flex items-center gap-2 text-[#B86662] font-semibold text-sm md:text-base">
             <span className="text-lg">✓</span>
             <span>{benefit}</span>
